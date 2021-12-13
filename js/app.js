@@ -1,4 +1,4 @@
-var app = angular.module('myApp',[]);
+var app = angular.module('myApp',[])
 app.controller('myCtrl', function($scope, $http){
 alert('HI');
     $scope.Test="Irshad";
